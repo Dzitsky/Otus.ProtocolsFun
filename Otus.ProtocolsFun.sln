@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otus.GrpcServer", "Otus.GrpcServer\Otus.GrpcServer.csproj", "{DDC29305-F6C9-4EF6-BC78-9CED40E157B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otus.GrpcClient", "Otus.GrpcClient\Otus.GrpcClient.csproj", "{E814D814-B648-436C-8DC9-4CEA8A814C33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otus.SignalRFun", "Otus.SignalRFun\Otus.SignalRFun.csproj", "{C2AD8308-F665-4329-B640-691EB255E23F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otus.GraphQLFun", "Otus.GraphQLFun\Otus.GraphQLFun.csproj", "{142B1729-EB72-4CB3-A7B5-6F63882C26D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDC29305-F6C9-4EF6-BC78-9CED40E157B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC29305-F6C9-4EF6-BC78-9CED40E157B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC29305-F6C9-4EF6-BC78-9CED40E157B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC29305-F6C9-4EF6-BC78-9CED40E157B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E814D814-B648-436C-8DC9-4CEA8A814C33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E814D814-B648-436C-8DC9-4CEA8A814C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E814D814-B648-436C-8DC9-4CEA8A814C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E814D814-B648-436C-8DC9-4CEA8A814C33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2AD8308-F665-4329-B640-691EB255E23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2AD8308-F665-4329-B640-691EB255E23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2AD8308-F665-4329-B640-691EB255E23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2AD8308-F665-4329-B640-691EB255E23F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{142B1729-EB72-4CB3-A7B5-6F63882C26D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{142B1729-EB72-4CB3-A7B5-6F63882C26D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{142B1729-EB72-4CB3-A7B5-6F63882C26D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{142B1729-EB72-4CB3-A7B5-6F63882C26D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CCC0BD2-10FF-451C-86AF-276BB2CA7394}
+	EndGlobalSection
+EndGlobal
