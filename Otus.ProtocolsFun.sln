@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otus.SignalRFun", "Otus.Sig
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Otus.GraphQLFun", "Otus.GraphQLFun\Otus.GraphQLFun.csproj", "{142B1729-EB72-4CB3-A7B5-6F63882C26D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignarClient", "SignarClient\SignarClient.csproj", "{5A5A7441-4842-4136-A09F-7B01979E8412}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{142B1729-EB72-4CB3-A7B5-6F63882C26D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{142B1729-EB72-4CB3-A7B5-6F63882C26D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{142B1729-EB72-4CB3-A7B5-6F63882C26D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A5A7441-4842-4136-A09F-7B01979E8412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A5A7441-4842-4136-A09F-7B01979E8412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A5A7441-4842-4136-A09F-7B01979E8412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A5A7441-4842-4136-A09F-7B01979E8412}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

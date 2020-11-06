@@ -33,6 +33,8 @@ namespace Otus.SignalRFun
         options.EnableDetailedErrors = true;
         options.KeepAliveInterval = TimeSpan.FromSeconds(2);
       });
+
+      services.AddHostedService<StockListenerService>();
     }
 
     // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

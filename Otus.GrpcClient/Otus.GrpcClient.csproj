@@ -13,7 +13,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Protobuf Include="Protos\greet.proto"/>
+      <Protobuf Include="Protos\greet.v1.proto" GrpcServices="Client">
+        <SourceUri>https://localhost:5001/proto/greet.v1.proto</SourceUri>
+      </Protobuf>
     </ItemGroup>
 
     
