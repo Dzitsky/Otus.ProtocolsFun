@@ -1,4 +1,5 @@
 syntax = "proto3";
+import "google/api/annotations.proto";
 
 option csharp_namespace = "Otus.GrpcServer";
 
@@ -7,7 +8,11 @@ package greet;
 // The greeting service definition.
 service Greeter {
   // Sends a greeting
-  rpc SayHello (HelloRequest) returns (HelloReply);
+  rpc SayHello (HelloRequest) returns (HelloReply){
+    option (google.api.http) = {
+      get: "/hello/{name}"
+    };
+  };
   rpc BidiHello(stream HelloRequest) returns (stream HelloReply);
 }
 

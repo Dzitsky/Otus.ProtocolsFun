@@ -6,11 +6,13 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Protobuf Include="Protos\*.proto" GrpcServices="Server" />
+        <Protobuf Include="Protos\*.proto" GrpcServices="Server" ProtoRoot="Protos\" />
     </ItemGroup>
 
     <ItemGroup>
         <PackageReference Include="Grpc.AspNetCore" Version="2.27.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Grpc.HttpApi" Version="0.1.0-alpha.20410.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Grpc.Swagger" Version="0.1.0-alpha.20410.1" />
     </ItemGroup>
     
     <ItemGroup>
@@ -20,6 +22,6 @@
     </ItemGroup>
 
     <ItemGroup>
-        <Content Include="Protos\*" CopyToPublishDirectory="PreserveNewest" />
+        <Content Include="Protos\*" CopyToPublishDirectory="PreserveNewest"  />
     </ItemGroup>
 </Project>
